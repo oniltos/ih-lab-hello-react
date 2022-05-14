@@ -1,38 +1,67 @@
 .App {
-  text-align: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App-hero {
+  background-color: #191b28;
+  color: #fff;
+  padding: 20px 45px 65px 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 100px 0 0 0;
+  width: 40%;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-hero p {
+ width: 30%;
+}
+
+button {
+  background-color: #fff;
+  color: #191b28;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.App-features {
+  display: flex;
+  margin-top: 130px;
+  justify-content: space-around;
+}
+
+.App-features > div {
+  width: 20%;
+}
+
+.App-features > div:first-child {
+  padding-left: 15px
+}
+
+.App-features img {
+   width: 120px;
+}
+
+.App-features h2, .App-features p {
+  padding-left: 13px;
+}
+
+.App-features h2 {
+  margin: 10px 0 0 0
+}
+
+.App-features p {
+  margin-top: 10px;
 }
